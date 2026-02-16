@@ -22,7 +22,7 @@ public class TestRunner extends BaseTest {
 
     @Test(priority = 1, description = "DateBase Validation", dataProvider = "SearchQuery",successPercentage = 60)
     public void databaseValidationTest(String Search) {
-        //System.out.println(Search);
+        //სერჩისთვის ფრაზებს ვაძლევ dataprovider-ით ,შემეძლო ბაზიდან მექნა ,მაგრამ dataprovider-ის მუღამი მქონდა , თან ყველაფერი გამოიყენეთ რაც ისწავლეთო და ეს რომ გამომეტოვა ღამე რა დამაძინებდა :)
         homePage
                 .verifyHomePageLoad()
                     .verifySearchButton()
