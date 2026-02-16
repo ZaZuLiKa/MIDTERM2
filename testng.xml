@@ -1,4 +1,4 @@
-<suite name="HomeWorkSuite">
+<suite name="AutomationTest">
     <test  name="myTests" parallel="classes" thread-count="1">
         <classes >
             <listeners>
