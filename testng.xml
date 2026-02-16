@@ -1,0 +1,12 @@
+<suite name="HomeWorkSuite">
+    <test  name="myTests" parallel="classes" thread-count="1">
+        <classes >
+            <listeners>
+                <listener class-name="Steps.Listener"/>
+            </listeners>
+            <class name="TestRunner"/>
+            <class name="TestRunnerPlaywright"/>
+        </classes>
+
+    </test>
+</suite>
